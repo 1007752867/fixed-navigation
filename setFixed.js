@@ -1,6 +1,6 @@
 $.fn.extend({
-	// fixSpace 距离顶部多少距离开始fixed定位 可选
-	// fixClass 在fixed status 添加的 class:string 可选
+	// fixSpace:number 距离顶部多少距离开始 fixed定位  可选
+	// fixClass:string 在fixed status 添加的 class    可选
     setFixed: function(obj) {
         var menu = this,
         menuTop = menu.offset().top,
